@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale = 1.0">
+        <title>DeVidit Portfolio</title>
+
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/ddadd11d15.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap" 
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="logo vidit singh">
+            </div>
+            <button class="nav-toggle" aria-label="toggle-navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#connect" class="nav__link">Connect</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Introduction-->
+        <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                    Hello World <strong>I am Vidit</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">design and dev</p>
+                <img src="img/vector_heat.png" alt="Image of Vidit" class="intro__img">
+        </section>
+        <!--Projects-->
+        <section class="my-work" id="project">
+            <h2 class="section__title">Personal projects</h2>
+            <p class="section__subtitle--work">Following are some of the simple games and animations I've made so far, using tools like p5.js.</p>
+
+            <div class="portfolio">
+                <!--Portfolio item 01-->
+                <div class="portfolio__item">
+                    <!-- <img src="img/test.png" alt="portfolio image" class="portfolio__img"> -->
+                    <iframe src="https://editor.p5js.org/VectorHeat/embed/x0w-NyQgD" width = "400" height = "400" class="portfolio__img"></iframe>
+                    <h3 class="portfolio__title">Snake Game</h3>
+                    <p class="portfolio__desc">Pixel based 2000's style snake game, made using p5.js</p> 
+                    <a href="https://editor.p5js.org/VectorHeat/embed/x0w-NyQgD"><button class="btn">Try Out</button></a>
+                </div>
+                <!--Portfolio item 02-->
+                <div class="portfolio__item">
+                    <!-- <img src="img/test.png" alt="portfolio image" class="portfolio__img"> -->
+                    <iframe src="https://editor.p5js.org/VectorHeat/embed/Yf-ru_yih" width = "400" height = "400" class="portfolio__img"></iframe>
+                    <h3 class="portfolio__title">Flappy Bird</h3>
+                    <p class="portfolio__desc">A minimal clone of the iconic game flappy bird. Let's see what's your high-score.</p> 
+                    <a href="https://editor.p5js.org/VectorHeat/embed/Yf-ru_yih"><button class="btn">Try Out</button></a>
+                </div>
+                <!--Portfolio item 03-->
+                <div class="portfolio__item">
+                    <!-- <img src="img/test.png" alt="portfolio image" class="portfolio__img"> -->
+                    <iframe src="https://editor.p5js.org/VectorHeat/embed/jWHnjAFqq" width = "400" height = "400" class="portfolio__img"></iframe>
+                    <h3 class="portfolio__title">Star Field</h3>
+                    <p class="portfolio__desc">A simple animation to simulate the view of a spaceship crossing a starfield</p> 
+                    <a href="https://editor.p5js.org/VectorHeat/embed/jWHnjAFqq"><button class="btn">Try Out</button></a>
+                </div>
+                <!--Portfolio item 04-->
+                <div class="portfolio__item">
+                    <!-- <img src="img/test.png" alt="portfolio image" class="portfolio__img"> -->
+                    <iframe src="https://editor.p5js.org/VectorHeat/embed/evBbgKGyv" width = "400" height = "400" class="portfolio__img"></iframe>
+                    <h3 class="portfolio__title">Bouncer</h3>
+                    <p class="portfolio__desc">Try to keep the ball above the bar.</p> 
+                    <a href="https://editor.p5js.org/VectorHeat/embed/evBbgKGyv"><button class="btn">Try Out</button></a>
+                </div>
+                
+            </div>
+        </section>
+        <!--About Me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__tile--about">Meet me</h2>
+            <p class="section__subtitle section__subtitle--about">
+                Vidit Singh Brahmania
+            </p>
+            <div class="about-me__body">
+                <p>Glad to see you here. I am Vidit, a computer-science undergraduate. I like making stuff, could be simple or complicated. I enjoy solving problems and try to challenge myself. I have a knack for designing too. Though, never learnt it formally I am practically good at it.</p>
+                <p>Apart from programming and making “stuff”, I read, play badminton and sketch.</p>
+                <p>2020 made me realise that things can go downhill at any point without any indication. We have to pull through it and make sure it never happens again.</p>
+            </div>
+            <img src="img/spiderverse.jpg" alt="spiderverse" class="about-me__img">
+        </section>
+
+        <!--Footer-->
+        <footer class="footer" id="connect">
+            <a href="mailto:viditsinghbrahmania@gmail.com" class="footer__link">viditsinghbrahmania@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="#">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="#">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+    
+</html>
